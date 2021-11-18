@@ -58,4 +58,4 @@ if __name__ == '__main__':
     sys.excepthook = except_hook
     ex = Example()
     ex.show()
-    sys.exit(app.exec_(
+    sys.exit(app.exec_())
